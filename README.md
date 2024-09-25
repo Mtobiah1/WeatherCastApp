@@ -20,3 +20,26 @@ WeatherCast is a user-friendly web application that provides accurate and real-t
    ```bash
    git clone git@github.com:Mtobiah1/WeatherCastApp.git
    cd weathercast
+   2. Installation dependencies
+    composer install
+    npm install
+3. Setup your .env file
+    cp .env.example .env
+    php artisan key:generate
+4.Configure your database settings in the .env file.
+5.Run the migrations:
+    php artisan migrate
+6. Start the development server:
+    php artisan serve
+
+Usage
+    Register for a new account or log in to an existing account.
+    Enter the country code and city of interest to retrieve the latest weather data.
+    View the 16-day weather forecast and access your search history.
+
+Acknowledgments
+
+    Weatherbit API for providing reliable weather data.
+    Laravel for a robust backend framework.
+    Vue.js for an efficient frontend framework.
+
