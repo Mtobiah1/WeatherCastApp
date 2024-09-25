@@ -12,11 +12,11 @@ WeatherCast is a user-friendly web application that provides accurate and real-t
 ## Technologies Used
 - **Frontend**: HTML, CSS, JavaScript (Vue.js)
 - **Backend**: PHP (Laravel)
-- **Database**: MySQL or any other preferred database
+- **Database**: MySQL (any other preferred database or MSSQL will work also)
 - **API**: Weatherbit API for weather data
 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/weathercast.git
+   git clone git@github.com:Mtobiah1/WeatherCastApp.git
    cd weathercast
